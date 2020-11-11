@@ -103,8 +103,10 @@ url: `/api/v1/product-collections/`
 
 ## Подсказки
 
-- Добавление страницы логина в проект:
-https://docs.djangoproject.com/en/3.1/topics/auth/default/#authentication-in-web-requests
+- Доступные действия во ViewSet: https://www.django-rest-framework.org/api-guide/viewsets/#viewset-actions
+- Проверка на админа в DRF: https://www.django-rest-framework.org/api-guide/permissions/#isadminuser
+- Пользователь хранится в объекте `request`
+- Добавить дополнительный контекст в сериализатор: https://www.django-rest-framework.org/api-guide/serializers/#including-extra-context
 
 ## Требования к организации системы
 
